@@ -1,0 +1,133 @@
+body::-webkit-scrollbar {
+    width: 14px;               
+}
+
+body::-webkit-scrollbar-track {
+background: var(--bg-ottosay-2);        
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: var(--bg-ottosay-1);    
+border-radius: 20px;       
+border: 3px solid white;  
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: var(--bg-ottosay-1);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--bg-ottosay-2);
+}
+
+.header-logo {
+    max-width: 7rem;
+    margin-right: 7rem;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    color: var(--bg-ottosay-1);
+    font-weight: 800;
+}
+
+.logo-icon {
+    color: var(--bg-ottosay-1);
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.nav-item a {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--bg-ottosay-1);
+}
+
+.nav-item a:hover {
+    color: var(--bg-ottosay-4);
+}
+
+.my-title {
+    color: var(--bg-ottosay-1);
+}
+
+.bg-ottosay-2 {
+    background-color: var(--bg-ottosay-2);
+}
+
+.sobre {
+    min-height: 55vh;
+    display: flex;
+}
+
+.review {
+    height: 15rem;
+}
+
+.icon {
+    font-size: 4rem;
+    color: var(--bg-ottosay-1);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+#avaliacoes .icon {
+    font-size: 2rem;
+}
+
+.carouseil-inner img {
+    width: 60rem;
+    height: 40rem;
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    background-color: var(--bg-ottosay-2);
+}
+
+.advantage .card:hover {
+    background-color: var(--bg-ottosay-5);
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+    color: var(--bg-ottosay-4);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-ottosay-1);
+    transition: .3s;
+}
+
+.icon-social:hover {
+    color: var(--bg-ottosay-4);
+}
+
+.btn-primary {
+    background-color: var(--bg-ottosay-1);
+    border-color: var(--bg-ottosay-1);
+}
+
+.btn-primary:hover {
+    background-color: var(--bg-ottosay-4);
+    border-color: var(--bg-ottosay-4);
+}
+
+textarea {
+    resize: none;
+    height: 9rem;
+}
+
+
